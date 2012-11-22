@@ -44,11 +44,10 @@ app.get('/json/:id', function(req, res) {
 			console.log('Redis error:', err);
 			return;
 		}
-		console.log(data);
+		//console.log('Data:', data);
 		var payload = [];
 		for (var i=0; i<data.length; i++) {
-			var row = JSON.parse(data[i]);
-			payload.push({time: row[0], a0: row[1], a1: row[2]});
+			payload.push(JSON.parse(data[i]));
 		}
 		var packet = JSON.stringify(payload);
 		res.send(packet);

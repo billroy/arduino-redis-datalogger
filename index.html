@@ -1,5 +1,6 @@
 <!doctype html>
 <meta charset='utf-8'>
+<title>Arduino Redis Datalogger</title>
 <style>
 body {
 	font: 10px sans-serif;
@@ -114,6 +115,12 @@ d3.json('json/datalog', function(error, data) {
 			.text(function(d) { return d.name; });
 
 });
-
 </script>
+
+<p>This example program charts data logged to a Redis server by the BitlashRedisClient.</p>
+
+<p>For documentation see the <a href='https://github.com/billroy/arduino-redis-datalogger'>README on GitHub, where you can also find the code.</a></p>
+
+Requires <a href='http://bitlash.net'>Bitlash</a> and the <a href='https://github.com/billroy/bitlash/blob/master/examples/BitlashRedisClient/BitlashRedisClient.pde'>BitlashRedisClient running on Arduino.</a>
+
 </body><html>
