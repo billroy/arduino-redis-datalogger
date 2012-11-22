@@ -45,7 +45,7 @@ If you would prefer to start the web server on a different port:
 
 To stop the server, type Control-C in its terminal window.
 
-# On the Arduino
+# On the Arduino: Install
 
 You need to install the Bitlash library (http://bitlash.net).  Don't forget to restart the Arduino software.
 
@@ -53,12 +53,21 @@ Once the Bitlash software is installed, you can install the bitlash redis client
 
 	File -> Examples -> bitlash -> BitlashRedisClient
 
-Before you upload the client you must customise the code for your IP address, gateway, and   network mask	
+Before you upload the client you must customise the code for your IP address, gateway, and   network mask.  You must also enter the IP address of the redis server, which you can get by pinging the host in the redis url.  See the file BitlashRedisClient.pde at about line 166.
 
+When you have finished your customications:
 
 	File -> Upload
 
 Connect to your arduino with whatever serial monitor you usually use and you should be talking to Bitlash.
+
+# On the Arduino: Testing the Arduino setup
+
+
+
+
+
+
 
 Define these functions in Bitlash; you can copy and paste from here (minus the '>'):
 
