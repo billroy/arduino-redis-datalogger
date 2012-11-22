@@ -1,6 +1,8 @@
-### Arduino Redis Connector
+### The Bitlash-Arduino-Redis Connection
 
+This example is a companion to the BitlashRedisClient redis client example that ships with Bitlash.  It collects data that Bitlash on the Arduino has pushed to the redis server via ethernet, and displays it in a web page as a graph using the D3 visualization library.
 
+You can find out more about Bitlash at http://bitlash.net, and more about the Bitlash redis client here: https://github.com/billroy/bitlash/blob/master/examples/BitlashRedisClient/BitlashRedisClient.pde
 
 ## Pre-install Requirements
 
@@ -53,9 +55,9 @@ Once the Bitlash software is installed, you can install the bitlash redis client
 
 	File -> Examples -> bitlash -> BitlashRedisClient
 
-Before you upload the client you must customise the code for your IP address, gateway, and   network mask.  You must also enter the IP address of the redis server, which you can get by pinging the host in the redis url.  See the file BitlashRedisClient.pde at about line 166.
+Before you upload the client you must customize the code for your IP address, gateway, and   network mask.  You must also enter the IP address of the redis server, which you can get by pinging the host in the redis url.  See the file BitlashRedisClient.pde at about line 166.
 
-When you have finished your customications:
+When you have finished your customizations:
 
 	File -> Upload
 
@@ -63,11 +65,7 @@ Connect to your arduino with whatever serial monitor you usually use and you sho
 
 # On the Arduino: Testing the Arduino setup
 
-
-
-
-
-
+This would be a good time to play around with the examples in the example .pde file to familiarize yourself with the operation of the Bitlash redis client.
 
 Define these functions in Bitlash; you can copy and paste from here (minus the '>'):
 
