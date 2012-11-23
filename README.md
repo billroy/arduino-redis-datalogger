@@ -1,6 +1,8 @@
 # Bitlash Arduino Redis Datalogger
 
-This example is a companion to the BitlashRedisClient redis client example that ships with Bitlash.  It collects data that Bitlash on the Arduino has pushed to a Redis server via ethernet, and displays it in a web page as a graph using the D3 visualization library.
+This example is a companion to the BitlashRedisClient redis client example that ships with Bitlash.  It collects data that Bitlash on the Arduino has pushed to a Redis server via ethernet, and displays it in a web page as a graph using the D3 visualization library, something like this:
+
+![](https://raw.github.com/billroy/arduino-redis-datalogger/master/sample-chart.png)
 
 You can find out more about Bitlash at http://bitlash.net, and more about the Bitlash redis client here: https://github.com/billroy/bitlash/blob/master/examples/BitlashRedisClient/BitlashRedisClient.pde
 
