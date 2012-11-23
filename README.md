@@ -30,12 +30,12 @@ If you are using a remote redis, you need its "redis url" when you start the ser
 You need to install node.js (http://nodejs.org) and git (http://git-scm.com).
 
 
-### Get the aredis code
+### Get the arduino-redis-datalogger code
 
 Open a terminal window and enter the commands below to install the web chart server:
 
-	$ git clone https://github.com/billroy/aredis
-	$ cd aredis
+	$ git clone https://github.com/billroy/arduino-redis-datalogger
+	$ cd arduino-redis-datalogger
 	$ npm install
 	$ node index.js 
 
